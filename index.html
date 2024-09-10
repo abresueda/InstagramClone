@@ -19,8 +19,9 @@
     <title>Instagram</title>
   </head>
   <body>
+    <!-- Navbar sabitlendi,height 54px yapıldı, arkaplan beyaz yapıldı.-->
     <nav
-      class="navbar navbar-expand-sm navbar-light border" 
+      class="navbar navbar-expand-sm navbar-light border fixed-top" 
       style="height: 54px; background-color: white;"
     >
       <div class="logo">
@@ -40,6 +41,7 @@
               <span class="navbar-toggler-icon mr-5"></span>
             </button>
           </div>
+          <!--Arama kısmı d-flex ile ortaya alındı ve ml-5 verildi.-->
       <div class="collapse navbar-collapse d-flex justify-content-center ml-5">
         <form class="form-inline my-2 my-lg-0 ml-5 d-none d-sm-block">
           <input
@@ -51,6 +53,7 @@
           />
         </form>
       </div>
+      <!-- Sağ üstteki menüye ml5 ve mt2 verildi.-->
       <div
         class="collapse navbar-collapse d-none d-sm-block"
       >
@@ -90,12 +93,12 @@
         </ul>
       </div>
     </nav>
-
+<!--mt-2 verildi, padding eklendi. Max. height important ile 200px yapıldı.-->
     <div class="container middlearea">
       <div class="row">
-        <div class="col-12 col-sm-6">
-          <div class="card">
-            <div class="card-body">
+        <div class="col-6">
+          <div class="card mb-4">
+            <div class="card-body d-flex text-center">
               <a href="https://www.instagram.com/kodluyoruz" style="text-decoration: none;" target="_blank">
               <img
                 src="https://scontent-otp1-1.cdninstagram.com/v/t51.2885-19/s150x150/105971749_581051382486071_1053777149100084988_n.jpg?_nc_ht=scontent-otp1-1.cdninstagram.com&_nc_ohc=VMAJoeqh5IwAX_QH3Nt&tp=1&oh=3bd9dbd2532c87e350dfcfffec74f120&oe=602BAC27"
@@ -146,7 +149,7 @@
                 <span class="storytext">gulcanyayla</span>
             </a>
             </div>
-          </div>
+            <div class="card mb-5">
           <div class="card">
             <div class="card-header">
               <img
@@ -281,6 +284,7 @@
               ><span class="share-text" style="color: #0095f6; opacity: 50%"
                 ><strong>Paylaş</strong></span
               >
+            </div>
             </div>
           </div>
           <div class="card">
@@ -556,6 +560,7 @@
             </div>
           </div>
         </div>
+      </div>
         <div class="col-3">
           <div
             class="card col-xs-12 rightpanel"
@@ -710,7 +715,7 @@
             </div>
           </div>
         </div>
-      </div>
+    </div>
     </div>
   </body>
 </html>
